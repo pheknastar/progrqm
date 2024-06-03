@@ -15,12 +15,13 @@ public class OccurenceOfCharUsingCollection {
 			} else {
 				map.put(s[i], 1);
 			}
+//			map.put(s[i], map.getOrDefault(s[i], 0)+1);
 		}
-		System.out.println(map);
-//		for (Entry<String, Integer> m : map.entrySet()) {
-//			if (m.getValue() == 1) {
-//				System.out.println(m.getKey() + "---" + m.getValue());
-//			}
-//		}
+//		System.out.println(map);
+		for (Entry<String, Integer> m : map.entrySet()) {
+			if (m.getValue() >= 1) {
+				System.out.println(m.getKey() + "---" + m.getValue());
+			}
+		}
 	}
 }

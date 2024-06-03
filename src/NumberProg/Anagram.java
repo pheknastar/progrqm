@@ -24,9 +24,9 @@ public class Anagram {
 				}
 			}
 			if (flag == true) {
-				System.out.println("No is Anagram");
+				System.out.println("String is Anagram");
 			} else {
-				System.out.println("No is not Anagram");
+				System.out.println("String is not Anagram");
 			}
 		}
 	}

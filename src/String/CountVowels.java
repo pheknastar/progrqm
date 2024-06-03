@@ -14,8 +14,10 @@ public class CountVowels {
 					cVowel++;
 //					res += ch;
 //				}
+					System.out.println(ch+"-"+cVowel);
+					cVowel = 0;
 			}
 		}
-		System.out.println(cVowel);
+//		System.out.println(cVowel);
 	}
 }

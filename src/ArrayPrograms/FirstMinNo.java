@@ -23,5 +23,6 @@ public class FirstMinNo {
 			}
 		}
 		System.out.println(min2);
+		System.out.println(min);
 	}
 }

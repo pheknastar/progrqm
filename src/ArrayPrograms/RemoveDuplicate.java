@@ -1,12 +1,13 @@
 package ArrayPrograms;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicate {
 
 	public static void main(String[] args) {
 		int[] a = { 10, 20, 30, 10, 40, 20 };
-		HashSet<Integer> set = new HashSet<Integer>();
+		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
 		for (int i = 0; i < a.length; i++) {
 //			int c = 0;
 //			for (int j = i; j < a.length; j++) {
